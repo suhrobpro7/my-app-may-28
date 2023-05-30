@@ -1,12 +1,10 @@
 import React from 'react'
-import AddProduct from './components/AddProduct'
+import InputList from './components/InputList'
 
 export default function App() {
   return (
     <div style={{textAlign: "center"}}>
-
-     <AddProduct/>
-      
+     <InputList/>
     </div>
   )
 }
